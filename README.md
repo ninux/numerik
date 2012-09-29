@@ -4,17 +4,17 @@ NUMERIK
 In diesem Projekt wird die Anwendung von GNUPLOT geübt an Beispielen numerischer Problemstellungen.
 
 Ziel
-====
+----
 
 Fertige Beispiele verstehen und daraus eigene Anwendungen und Vorlagen erstellen können für kommende Projekte.
 
 Methode
-=======
+-------
 
 Aus einem numerischen Problem wird ein Modell u.o. Analyse mit Hilfe von einfachen C Programmen erstellt und die erhaltenen Daten mittels GNUPLOT grafisch verarbeitet bzw. dargestellt.
 
 Quelle
-======
+------
 
 Als Grundlage dieses Projektes dient das Buch "Elementare Numerik für Techniker" (ISBN:978-3-8348-0603-1)
 
