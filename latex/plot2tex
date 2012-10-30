@@ -1,0 +1,23 @@
+# set the terminal to latex
+set terminal latex
+
+# redirect the output to a file
+set output "filename.tex"
+
+# set the size of the plot
+#	> the default is 5"x3" 
+#	> the parameters are scale factors (based on the default)
+set size 1,2
+
+# at the end of the gnuplot-file reset the terminal
+set output
+set terminal pop
+
+# in the tex file include the plot with 
+#
+#	\begin{figure}
+#		\begin{center}
+#			\input{filename}
+#		\end{center}
+#	\end{figure}
+
